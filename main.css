@@ -12,6 +12,9 @@
     text-align: left;
     padding: 20px;  
 }
+a:link {
+    color:blanchedalmond;
+  }
 a:visited {
     color: blanchedalmond
     }
