@@ -1,0 +1,915 @@
+/* fonts & global effects */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+* {
+    box-sizing: border-box;
+}
+/* Navigation bar */
+.navBox {
+    color: blanchedalmond;
+    font-size: 17px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    text-align: left;
+    padding: 20px;  
+}
+a:visited {
+    color: blanchedalmond
+    }
+.navBox:hover {
+    opacity: .4;
+    transition: .4s;
+}
+.container {
+    display: flex;
+    justify-content: left;
+}
+
+
+
+
+/* ///////////INDEX PAGE/////////// */
+
+/* body{
+    background-color: #222222;
+} */
+
+ /* .mainIndexImage{
+    display: flex;
+    justify-content: enter;
+    height: 800px;
+    width: 400px;
+    border: green;
+    border-style: solid;
+    border-radius: 10%; 
+} */
+.indexNav {
+    color: blanchedalmond;
+    font-size: 17px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+    
+  }
+  a:visited {
+    color: blanchedalmond
+    }
+  .indexNav:hover {
+    opacity: .4;
+    transition: .4s;
+  }
+  .indexContainer {
+    display: flex;
+    justify-content: left;
+    background: rgb(19, 143, 245);
+  }
+  .mainIndexImage{
+    width: 100%;
+    height: auto;
+  }
+  .indexTitles{
+    display: inline-block;
+    font-size: 20px;
+  }
+  .indexIntroText{
+    background: rgba(0, 0, 0, 0.041);
+    text-shadow: black;
+    color:black;
+    font-size: 17px;
+    padding: 8px 12px;
+    border: rgba(0, 0, 0, 0.39) solid 2px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px black;
+    
+  }
+  
+  .mainPageHoldingContainer1{
+  
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 50px;
+    flex-direction: row;
+  }
+  .mainPageHoldingContainer1 a:hover {
+    opacity: .4;
+    transition: .4s;
+  }
+  .mainPageHoldingContainer2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 50px;
+    flex-direction: row;
+  }
+  .mainPageHoldingContainer1 a:hover {
+    opacity: .4;
+    transition: .4s;
+  }
+  .navBox:hover {
+    opacity: .4;
+    transition: .4s;
+  }
+  
+  .internalcontainer1{
+    flex: 1;
+    padding: 30px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3px;
+    background: white;
+  
+    
+  }
+  .internalcontainer1 img{
+  
+    border: black solid 2px;
+    box-shadow: 0 0 20px black;
+    
+  }
+  .internalcontainer2{
+    flex: 1;
+    padding: 30px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3px;
+    background: white;
+  }
+  .internalcontainer2 img{
+  
+    border: black solid 2px;
+    box-shadow: 0 0 20px black;
+    
+  }
+  
+  .internalcontainer3{
+    flex: 1;
+    padding: 30px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3px;
+    background: white;
+   
+  }
+  .internalcontainer3 img{
+  
+    border: black solid 2px;
+    box-shadow: 0 0 20px black;
+    
+  }
+  .internalcontainer4{
+    flex: 1;
+    padding: 30px;
+    /* background: pink; */
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3px;
+    background: white;
+  }
+  .internalcontainer4 img{
+  
+    border: black solid 2px;
+    box-shadow: 0 0 20px black;
+    
+  }
+  
+  .internalcontainer5{
+    flex: 1;
+    padding: 30px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3px;
+    background: white;
+    
+  }
+  .internalcontainer5 img{
+  
+    border: black solid 2px;
+    box-shadow: 0 0 20px black;
+    
+  }
+  
+  .internalcontainer6{
+    flex: 1;
+    /* background: cyan; */
+    padding: 30px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3px;
+    background: white;
+  }
+  .internalcontainer6 img{
+  
+    border: black solid 2px;
+    
+  }
+  
+  .nintendoLogos{
+      position: relative;
+      align-items: center;
+      bottom: 0;
+     
+  }
+  .nintendoLogos img{
+    padding: 20px;
+    width: 110px;
+    height: auto;
+  }
+  
+  @media screen and (max-width: 768px){
+    .mainPageHoldingContainer1{
+        flex-direction: row;
+    }
+  
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ////////FINAL FANTASY PAGE//////// */
+
+body.finalFantasy {
+    background-color: black;
+}
+#ffimage{
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 30px white;
+}
+.ffIntroTextContainer{
+    width: 100%;
+    display: flex;
+    /* background: #ffc728; */
+    padding: 30px;
+    flex-direction: row;
+    color: blanchedalmond;
+    font-family: 'Playfair Display', serif;
+    flex-direction: row;
+}
+.introtext1{
+    flex: 1;
+    /* background: #42eaf0; */
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+    margin: 3px;
+    
+}
+.introtext2{
+    flex: 1;
+    /* background: rgb(255, 91, 118); */
+    padding: 30px;
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+    margin: 3px;
+}
+@media screen and (max-width: 768px){
+    .ffIntroTextContainer{
+        flex-direction: column;
+    }
+}
+.ffcontainer0{
+    width: 100%;
+    display: flex;
+    /* background: #ffc728; */
+    padding: 50px;
+    color: blanchedalmond;
+    font-family: 'Playfair Display', serif;
+    font-size: 12px;
+    flex-direction: column;
+}
+.article1{
+    flex: 1;
+    /* background: rgb(158, 52, 52); */
+    padding: 30px;
+    margin: 3px; 
+}
+#image1 {
+    max-width: 100%;
+    height: auto;
+    border: solid blanchedalmond 3px;
+    border-radius: 10%;
+    box-shadow: 0 0 25px white;
+}
+#image1:hover {
+    opacity: .4;
+    transition: .4s;
+  }
+.article2{
+    flex: 1;
+    /* background: pink; */
+    padding: 30px;
+    margin: 3px;
+}
+#image2{
+    max-width: 100%;
+    height: auto;
+    border: solid blanchedalmond 3px;
+    border-radius: 10%;
+    box-shadow: 0 0 25px white;
+}
+#image2:hover {
+    opacity: .4;
+    transition: .4s;
+  }
+.article3{
+    flex: 1;
+    /* background: pink; */
+    padding: 30px;
+    margin: 3px;
+    }
+#image3{
+    max-width: 100%;
+    height: auto;
+    border: solid blanchedalmond 3px;
+    border-radius: 10%;
+    box-shadow: 0 0 20px white;
+    }
+#image3:hover {
+    opacity: .4;
+    transition: .4s;
+}
+    
+@media screen and (max-width: 768px){
+    .ffcontainer0{
+        flex-direction: column;
+    }
+}
+.trailerTitleContainer{
+    width: 100%;
+    display: flex;
+    /* background: #ffc728; */
+    padding: 10px;
+    color: blanchedalmond;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    flex-direction: column;
+
+}
+#fftrailertitle{
+    flex: 1;
+    /* background: pink; */
+    color: blanchedalmond;
+    padding: 5px;
+    margin: 3px;
+   
+}
+.iframe-container{
+position: relative;
+width: 100%;
+height: auto;
+padding-bottom: 56.25%;
+}
+.iframe-container iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+/* ///////////PHANTASY STAR ONLINE PAGE////////// */
+body.pso2{
+    background-color:#4699f8;
+}
+#pso2image{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10%;
+}
+#pso1pic{
+    height: auto;
+    width: 100%;
+    border: black solid 4px;
+    border-radius: 10%;
+}
+
+.psoContainer0{
+    width: 100%;
+    display: flex;
+    background: #fdfdfb;
+    padding: 20px;
+    border: slategrey solid 2px;
+    border-radius: 10%;
+    flex-direction: row;
+}
+.psoArticle0{
+    flex: 1;
+    /* background: pink; */
+    padding: 30px;
+    font-size: 15px;
+    color: rgb(78, 89, 99);
+    font-family: 'Playfair Display', serif;
+    margin: 3px;
+}
+@media screen and (max-width: 768px){
+    .psoContainer0{
+        flex-direction: column;}
+
+}
+
+.psoContainer1 {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 12px;
+    width: 100%;
+    /* background: #ffc728; */
+    padding: 50px;
+    flex-direction: row;
+  }
+
+.block {
+    display: inline-block;
+    flex: 1;
+    width: 300px;
+    height: 400px;
+    background-color: #fdfdfb;
+    border: solid  slategrey 3px;
+    border-radius: 10%;
+    padding: 15px;
+    margin: 15px;
+  }
+  
+  .block img {
+   width: 150px;
+   height: 150px;
+  }
+  .psoContainer1 .block:hover{
+    opacity: .5;
+    transition: .7s;
+}
+@media screen and (max-width: 768px){
+    .psoContainer1{
+        flex-direction: row;}
+
+}
+.psoContainer2{
+    height: auto;
+    width: 100%;
+    display: flex;
+    background: #ffc728;
+    padding: 75px;
+    flex-direction: column;
+    
+}
+
+.psoArticle4{
+    flex: 1;
+    background-color: #fdfdfb;
+    padding: 30px;
+    font-size: 12px;
+    font-family: 'Playfair Display', serif;
+    margin: 14px;
+    border: solid slategray 2px;
+    border-radius: 10%;
+}
+
+.psoArticle5{
+    flex: 1;
+    background-color: #fdfdfb;;
+    padding: 30px;
+    font-size: 14px;
+    font-family: 'Playfair Display', serif;
+    margin: 12px;
+    border: solid slategray 2px;
+    border-radius: 10%;
+    
+}
+
+.psoArticle6{
+    flex: 1;
+    background-color: #fdfdfb;
+    padding: 30px;
+    font-size: 14px;
+    font-family: 'Playfair Display', serif;
+    margin: 12px;
+    border: solid slategray 2px;
+    border-radius: 10%;
+}
+.psoArticle4:hover{
+    opacity: .5;
+    transition: .7s;
+}
+.psoArticle5:hover{
+    opacity: .5;
+    transition: .7s;
+}
+.psoArticle6:hover{
+    opacity: .5;
+    transition: .7s;
+}
+@media screen and (max-width: 768px){
+    .psoContainer2{
+        flex-direction: column;}
+
+}
+
+#psoimage2{
+    height: auto;
+    width: 100%;
+    border: black solid 4px;
+    border-radius: 10%;
+}
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-bottom: 56.25%;
+    }
+.iframe-container iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.psotrailerTitleContainer{
+    width: 100%;
+    display: flex;
+    /* background: #ffc728; */
+    padding: 10px;
+    color: blanchedalmond;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    flex-direction: column;
+
+}
+#psotrailertitle{
+    flex: 1;
+    /* background: pink; */
+    color: blanchedalmond;
+    padding: 5px;
+    margin: 3px;
+    
+}
+
+
+
+
+
+
+
+
+
+/* 
+////////DEMONS SOULS PAGE////////// */
+#DSbackground{
+    background-color: black;
+}
+.dsMainBackground{
+    width: 100%;
+    height: auto;
+}
+.dstitle{
+    width: 100%;
+    display: flex;
+    /* background: #ffc728; */
+    padding: 45px;
+    color: blanchedalmond;
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+    flex-direction: row;
+    margin: 0;
+}
+.dsIntroText{
+    flex: 1;
+    /* background: rgb(158, 52, 52); */
+    padding: 45px;
+    font-size: 15px;
+    color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3px; 
+}
+.dsContainer{
+    width: 100%;
+    display: flex;
+    /* background: #ffc728; */
+    padding: 30px;
+    flex-direction: row;
+    font-family: serif;
+    font-size: 14px;
+    color: blanchedalmond;
+}
+.article7{
+    flex: 1;
+    /* background: rgb(158, 52, 52); */
+    padding: 30px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3px; 
+}
+#image1 {
+    max-width: 100%;
+    height: auto;
+    border: solid slategray 3px;
+    border-radius: 10%;
+    box-shadow: 0 0 20px white;
+}
+.article8{
+    flex: 1;
+    /* background: pink; */
+    padding: 30px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+#image2{
+    max-width: 100%;
+    height: auto;
+    border: solid slategray 3px;
+    border-radius: 10%;
+    margin-right: 20px;
+    box-shadow: 0 0 20px white;
+}
+.article9{
+    flex: 1;
+    /* background: pink; */
+    padding: 30px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3px;
+    
+    }
+#image3{
+    max-width: 100%;
+    height: auto;
+    border: solid slategray 3px;
+    border-radius: 10%;
+    box-shadow: 0 0 20px white;
+    }
+.dsContainer img:hover{
+    opacity: .2;
+    transition: .7s;
+}
+.dsimagecontainer img {
+    float: left;
+    max-width: 416px; 
+    height: auto;
+    object-fit: cover; 
+    border: slategray 2px solid;
+    border-radius: 10%;
+    box-shadow: 0 0 20px white;
+}
+.dsGallery{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.ds-img{
+    padding: 0px 40px 40px;  
+}
+.dsGallery img:hover{
+    opacity: .2;
+    transition: .7s;
+}
+@media screen and (max-width: 768px)
+{
+    .dsContainer{
+        flex-direction: row;
+    }
+}
+.dsLastText{
+    flex: 1;
+    /* background: rgb(158, 52, 52); */
+    padding: 50px;
+    font-size: 15px;
+    color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3px; 
+    column-count: 2;
+}
+.iframe-container{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-bottom: 56.25%;
+    }
+.iframe-container iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* ///////NINTENDO PAGE//////// */
+
+header{
+    background-color: rgb(214, 7, 7);
+    padding: 4px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+header h1{
+    color: white;
+    border: 8px solid white;
+    padding: 4px 8px;
+    display: inline-block;
+    border-radius: 36px;
+}
+.banner{
+    position: relative;
+}
+.banner img{
+    max-width: 100%;
+}
+
+ .banner .welcome{
+    background-color: tomato;
+    color: white;
+    padding: 5px;
+    border: solid black 2px;
+    position: absolute;
+    right:3%;
+    top: 36%;  
+} 
+
+.welcome{
+    font-size: 27px;
+}
+
+.banner h2 span{
+    font-size: 1.3em;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+} 
+.main-nav{
+    background-color: #fc2424;
+    padding: 1px;
+    
+}
+.main-nav ul{
+    display: flex;
+    justify-content:space-evenly;
+
+}
+.main-nav li{
+    width: 25%;
+    display: inline-block;
+    font-size: 20px;
+}
+.main-nav li a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    opacity: .2;
+    transition: .4s;
+    
+}
+
+.introTextNintendo{
+    width: 100%;
+    display: flex;
+    background: #ffc728;
+    padding: 30px;
+    flex-direction: row;
+    color: rgb(0, 0, 0);
+    font-family: serif;
+
+}
+.nintendoGallery img {
+    float: left;
+    width: 416px; 
+    height: auto;
+    object-fit: cover; 
+    border: slategray 2px solid;
+    border-radius: 10%;
+    box-shadow: 0 0 30px #000000b3;
+
+}
+
+.imagecontainer h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nintendoGallery{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.single-img{
+    padding: 0 10px 10px;
+    
+}
+.nintendoGallery img:hover{
+    opacity: .5;
+    transition: .7s;
+}
+
+
+
+
+
+
+/* 
+/////////Contact Page/////////  */
+#contactNav{
+    background-color: rgb(151, 151, 151);
+}
+
+#contactFormContainer{
+    margin: 0;
+    padding: 0;
+    background: whitesmoke;
+  
+  }
+  
+  .contactForm{
+    width: 85%;
+    max-width: 600px;
+    background: #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 40px;
+    border-radius: 8%;
+    text-align: center;
+    box-shadow: 0 0 20px #000000b3;
+    font-family: Arial, Helvetica, sans-serif
+  }
+  
+  .contactForm h1{
+    margin-top: 0;
+    font-weight: 200;
+  }
+  
+  .textInputs{
+    border: 1px solid gray;
+    margin: 8px 0;
+    padding: 12px 12px;
+    border-radius: 8px;
+  }
+  
+  .textInputs label{
+    display: block;
+    text-align: left;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 16 px;
+  }
+  
+  .textInputs input, .textInputs textarea{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 12px;
+    margin-top: 6px;
+  }
+  .sendButton{
+    display: block;
+    background-color: #3f90be;
+    padding: 14px 0;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 100%;
+  
+  }
+  
+
+
+
+
+
+
